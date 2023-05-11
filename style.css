@@ -1,0 +1,54 @@
+.child-box1{
+    border: #000 solid 1px; /*shorthand para border*/
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.child-box2{
+    border: #000 solid 1px; /*shorthand para border*/
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    border-radius: 6px;
+
+}
+
+.child-box3{
+    border: #000 solid 1px; /*shorthand para border*/
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.parent-box{
+    display: flex;
+    background-color: rgb(236, 236, 236);
+    padding: 40px 20px 20px 20px;
+}
+
+.parent-box > p{
+    position: absolute;
+    margin-top: -30px;
+    left: 30px;
+}
+
+#center .parent-box{
+    justify-content: center;
+}
+
+#space-around .parent-box{
+    justify-content: space-around;
+}
+
+#space-between .parent-box{
+    justify-content: space-between;
+}
