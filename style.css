@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500;700;800&display=swap');
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
 .child-box1{
     border: #000 solid 1px; /*shorthand para border*/
     width: 100px;
@@ -41,7 +48,13 @@
     left: 30px;
 }
 
-#center .parent-box{
+.parent-box-caption{
+    position: absolute;
+    margin-top: 5px;
+    left: 30px;
+}
+
+#jc-center .parent-box{
     justify-content: center;
 }
 
@@ -51,4 +64,96 @@
 
 #space-between .parent-box{
     justify-content: space-between;
+}
+
+#space-evenly .parent-box{
+    justify-content: space-evenly;
+}
+
+#jc-start .parent-box{
+    justify-content: start;
+}
+
+#row .parent-box{
+    flex-direction: row;
+}
+
+#row-reverse .parent-box{
+    flex-direction: row-reverse;
+}
+
+#column .parent-box{
+    flex-direction: column;
+}
+
+#column-reverse .parent-box{
+    flex-direction: column-reverse;
+}
+
+#ai-center .parent-box{
+    align-items: center;
+    flex-direction: column;
+}
+
+#ai-start .parent-box{
+    align-items: start;
+    flex-direction: column;
+}
+
+#ai-end .parent-box{
+    align-items: end;
+    flex-direction: column;
+}
+
+#stretch .parent-box{
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#nowrap .parent-box{
+    flex-wrap: nowrap;
+}
+
+#wrap .parent-box{
+    flex-wrap: wrap;
+}
+
+#wrap-reverse .parent-box{
+    flex-wrap: wrap-reverse;
+}
+
+#row-rap .parent-box{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#row-reverse .parent-box{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+#wrap-reverse .parent-box{
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+#column-wrap .parent-box{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#ac-start .parent-box{
+    align-content: start;
+}
+
+#ac-center .parent-box{
+    align-content: center;
+}
+
+#ac-between .parent-box{
+    align-content: space-between;
+}
+
+#ac-around .parent-box{
+    align-content: space-around;
 }
